@@ -1,6 +1,6 @@
+const upbhokta = require("../databaseSchemas/userSchema");
 const ErrorHandler = require("../utils/errorHandler");
 const catchAsyncErrors = require("../middlewares/catchAsynchErrors");
-const upbhokta = require("../databaseSchemas/userSchema");
 
 // Register a user
 exports.registerUser = catchAsyncErrors(async (req, res, next) => {
